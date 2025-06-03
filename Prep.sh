@@ -1,14 +1,11 @@
 #!/bin/bash
 
 # View IP and Interfaces 
-
 ip a
 ifconfig
 ip route 
 
-
 # Update system (Ubuntu)
-
 sudo apt update && sudo apt upgrade    
 
 # See Logged-in Users and Open files as them 
